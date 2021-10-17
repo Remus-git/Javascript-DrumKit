@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            Drum Kit
+        </div>
+        <div class="firstSection">
+            <!-- <div class="first"> -->
+                <div class="boom" data-key="68" id="drum">
+                    <h3>D</h3>
+                </div>
+                <div class="clap" data-key="69" id="drum">
+                    <h3>E</h3>
+                </div>
+            <!-- </div> -->
+            <div class="middleKick">
+                <div class="kick" data-key="75" id="drum">
+                    <h2>K</h2>
+                </div>
+            </div>
+            <!-- <div class="second"> -->
+                <div class="hihat" data-key="84" id="drum">
+                    <h3>T</h3>
+                </div>
+                <div class="openhat" data-key="89" id="drum">
+                    <h3>Y</h3>
+                </div>    
+            <!-- </div> -->
+        </div>    
+        <div class="secondSection">            
+            <div class="ride" data-key="87" id="drum">
+                <h3>W</h3>
+            </div>
+            <div class="snare" data-key="81" id="drum">
+                <h3>Q</h3>
+            </div>
+            <div class="tink" data-key="82" id="drum">
+                <h3>R</h3>
+            </div>
+            <div class="tom" data-key="65" id="drum">
+                <h3>A</h3>
+            </div>
+        </div>    
+    </div>
+
+    <audio data-key="68" src="/sound/boom.wav"></audio>
+    <audio data-key="69" src="/sound/clap.wav"></audio>
+    <audio data-key="84" src="/sound/hihat.wav"></audio>
+    <audio data-key="75" src="/sound/kick.wav"></audio>
+    <audio data-key="89" src="/sound/openhat.wav"></audio>
+    <audio data-key="87" src="/sound/ride.wav"></audio>
+    <audio data-key="81" src="/sound/snare.wav"></audio>
+    <audio data-key="82" src="/sound/tink.wav"></audio>
+    <audio data-key="65"src="/sound/tom.wav"></audio>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
